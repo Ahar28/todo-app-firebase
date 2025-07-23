@@ -1,10 +1,51 @@
-# Getting Started with Create React App
+# Todo App with Firebase
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern todo application built with React and Firebase, featuring real-time data synchronization and a beautiful UI with Tailwind CSS.
+
+## Features
+
+- ✅ Add, edit, and delete todos
+- 🔄 Real-time updates with Firebase Firestore
+- 📱 Responsive design with Tailwind CSS
+- 🎨 Modern gradient background
+- 💾 Persistent data storage
+
+## Setup Instructions
+
+### 1. Clone the repository
+```bash
+git clone <your-repo-url>
+cd todo-app-firebase
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Firebase Configuration
+1. Create a Firebase project at [Firebase Console](https://console.firebase.google.com/)
+2. Enable Firestore Database
+3. Copy `.env.example` to `.env`
+4. Fill in your Firebase configuration in the `.env` file:
+
+```env
+REACT_APP_FIREBASE_API_KEY=your_api_key_here
+REACT_APP_FIREBASE_AUTH_DOMAIN=your_auth_domain_here
+REACT_APP_FIREBASE_PROJECT_ID=your_project_id_here
+REACT_APP_FIREBASE_STORAGE_BUCKET=your_storage_bucket_here
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id_here
+REACT_APP_FIREBASE_APP_ID=your_app_id_here
+```
+
+### 4. Run the application
+```bash
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
